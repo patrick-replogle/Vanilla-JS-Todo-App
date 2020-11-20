@@ -5,6 +5,7 @@ let itemsLeftText = 0;
 
 loadClickHandlers();
 renderTodos(todos);
+listItemsLeft();
 
 function loadClickHandlers() {
   document.querySelector("form").addEventListener("submit", handleSubmit);
