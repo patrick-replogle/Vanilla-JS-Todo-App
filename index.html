@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>Vanilla JS Todo App</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <!-- <h1>Todo List 2.0</h1> -->
+      </header>
+      <div class="bodyContainer">
+        <form class="form">
+          <input type="text" placeholder="What needs to be done?" id="input" />
+          <button id="addBtn" type="submit">Add</button>
+          <button id="cancelBtn">Cancel</button>
+        </form>
+
+        <ul id="ul"></ul>
+
+        <section class="ulDisplay">
+          <div class="ulDisplay">
+            <div class="completedDiv">
+              <p id="completedCount" style="pointer-events: none">
+                <p style="pointer-events: none">&nbsp;Items Left</p>
+              </p>
+            </div>
+            <p id="all">All</p>
+            <p id="active">Active</p>
+            <p id="completed">Completed</p>
+          </div>
+        </section>
+
+          <div class="footerBtns">
+            <button id="saveBtn">Save</button>
+            <button id="clearCompletedBtn">Clear Completed</button>
+          </div>
+
+      </div>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
